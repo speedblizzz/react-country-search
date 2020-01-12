@@ -1,8 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Translate } from 'react-redux-i18n'
+
 import './AppHeader.scss'
 
-export default class AppHeader extends Component {
-  render() {
-    return <h1 className="main-title">App Title</h1>
-  }
+const AppHeader = ({ title }) => {
+  return (
+    <h1 className="app-title">
+      <Translate value="application.appTitle" />
+    </h1>
+  )
 }
+
+export default AppHeader
