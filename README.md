@@ -1,3 +1,5 @@
+Копия репозитория с моего старого [аккаунта](https://github.com/speedblizzz).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
