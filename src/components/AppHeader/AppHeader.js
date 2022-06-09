@@ -1,14 +1,14 @@
-import React from 'react'
-import { Translate } from 'react-redux-i18n'
+import React from 'react';
+import { Translate } from 'react-redux-i18n';
 
-import './AppHeader.scss'
+import './AppHeader.scss';
 
-const AppHeader = ({ title }) => {
+const AppHeader = () => {
   return (
     <h1 className="app-title">
       <Translate value="application.appTitle" />
     </h1>
-  )
-}
+  );
+};
 
-export default AppHeader
+export default AppHeader;
